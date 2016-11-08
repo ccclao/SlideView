@@ -1,0 +1,31 @@
+<com.deleteview.SlideView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#999999"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/delete_text"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@android:color/holo_red_dark"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:text="删除"
+        />
+
+</com.deleteview.SlideView>
